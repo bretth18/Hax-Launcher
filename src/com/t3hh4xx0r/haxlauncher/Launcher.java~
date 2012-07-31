@@ -813,7 +813,9 @@ public final class Launcher extends Activity
         }
     }
 
-
+<<<<<<< HEAD
+    /**
+=======
     public void onClickAllAppsButton(View v) {
     	handleMenuClick();
     }
@@ -836,6 +838,7 @@ public final class Launcher extends Activity
 	}
 
 	/**
+>>>>>>> 49cc844... Add tablet support.
      * Creates a view representing a shortcut.
      *
      * @param info The data structure describing the shortcut.
