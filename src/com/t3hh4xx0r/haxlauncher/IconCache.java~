@@ -67,11 +67,16 @@ public class IconCache {
 //            } else {
 //                // We'll need to use a denser icon, or some sort of a mipmap
 //            }
+<<<<<<< HEAD
+//        } else {
+//            mIconDpi = context.getResources().getDisplayMetrics().densityDpi;
+//        }
 
+=======
         } else {
             mIconDpi = context.getResources().getDisplayMetrics().densityDpi;
         }
-
+>>>>>>> 9f5de9a... Fix tablet support
         // need to set mIconDpi before getting default icon
         mDefaultIcon = makeDefaultIcon();
     }
